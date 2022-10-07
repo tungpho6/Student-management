@@ -1,0 +1,91 @@
+.header-container{
+display: flex ;
+flex-direction: row;
+justify-content: space-between;
+height: 92px;
+background-color: white;
+border-style: solid;
+border-width: 1px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.search-bar{
+flex: 1;
+width: 250px;
+height: 20px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+border-radius: 50px;
+border-color: gray;
+}
+.middle-section{
+width: 300px;
+margin-left: 20px;
+}
+.Search-button{
+width: 50px;
+height: 24px;
+border: none;
+border-radius: 50px;
+margin-right: 20px;
+cursor: pointer;
+}
+.Search-button:hover{
+opacity: 0.5;
+background-color: rgb(231, 255, 92);
+}
+.src-img{
+height: 15px;
+width: 15px; 
+padding:2px; 
+}
+.input-bar-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 10px;
+}
+.right-end-section{
+width: 400px;
+display: flex;
+flex-direction: row;  
+margin-right: 20px;
+align-items: flex-end;
+
+}
+.country-img{
+width: 20px;
+height: 0px;
+
+}
+.content{
+margin-top: 10px;  
+}
+.contact-link{
+color: black;  
+font-size: 12px;
+}
+
+.Home-page,.About-us-page,.Student-management,.About-my-team{
+  background-color: rgb(129, 129, 129);
+  margin: 10px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);  
+  transition: opacity 0.1s;
+}
+.Home-page:hover,.About-us-page:hover,.Student-management:hover,.About-my-team:hover{
+opacity: 0.8;
+background-color:rgb(245, 245, 168) ;
+color:rgb(129, 129, 129);
+}
+.home-img{
+width: 20px;
+}
+.Home-page{
+height: 48px;
+
+}

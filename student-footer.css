@@ -1,0 +1,93 @@
+.footer-section{
+display: flex;
+flex-direction: row;
+position: relative;
+bottom: 0;
+top: 280px;
+justify-content: space-between;
+align-items: center;
+height: 220px;
+background-color: white;
+}
+.section-one{
+display: flex;
+flex-direction: column;
+border-radius: 30px;
+height: 200px;
+width: 200px;
+background-color: rgb(248, 248, 196);
+align-items: center;
+border: none;
+margin-left: 50px;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.Opinion{
+height: 300px;  
+width: 150px;
+border-radius: 10px;
+padding-top: 0;
+border-color: gray;
+margin-top: 5px;
+}
+.Name{
+width: 150px;
+margin-top: 10px;
+border-radius: 50px;
+border-color: gray;
+}
+.Name::placeholder{
+padding-left: 20px;  
+}
+.Opinion::placeholder{
+position: relative;
+margin-bottom: 1000px;
+}
+
+.submit-button{
+height: 40px;
+width: 60px;  
+border-radius: 10px;
+border-color: gray;
+border-top: 5px;
+border: none;  
+cursor: pointer;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+.submit-button:hover{
+opacity: 0.8;
+background-color: rgb(165, 216, 255);
+
+}
+.Home,.about-us,.Studentsmanagement,.Aboutmyteam{
+  height: 15px;  
+  color: black;
+  font-size: 12px;
+}
+.Home:hover,.about-us:hover,.Studentsmanagement:hover,.Aboutmyteam:hover{
+color: rgb(231, 255, 92);
+cursor: pointer;
+}
+.section-two{
+width: 500px;  
+position: relative;
+left:200px;
+height: 100px;
+}
+.section-three{
+width: 300px;
+}
+.contains{
+  display: flex;
+  flex-direction: column;  
+  }
+  .copyright{
+  height: 20px;  
+  font-size: 12px;
+  }
+  .button-container{
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }

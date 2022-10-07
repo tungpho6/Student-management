@@ -1,0 +1,53 @@
+.Title-container{
+position: relative; 
+top: 10px;
+left: 0px;
+right: 0px;
+color: rgb(86, 182, 255);;
+font-size: 30px;
+display: block;
+padding: 10px;
+font-weight: 700;
+margin-bottom: 50px;
+border-style: solid;
+border-width: 1px;
+background-color: rgb(248, 248, 196);
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+
+}
+.the-row{
+border-style: solid;
+border-width: 1px;  
+border-color: gray;
+width: 100px;
+height: 20px;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: white;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.13);
+color: rgb(0, 0, 0);
+font-size: 10px;
+}
+.table-container{
+position: relative;
+top: 100px;
+right: 300px;
+left: 10px;
+display: inline-block;
+
+}
+.table{
+display: flex;  
+flex-direction: row;
+
+}
+.Student-information{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 500px;
+margin-left: 20px;
+font-weight: lighter;
+
+}
