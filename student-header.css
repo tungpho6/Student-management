@@ -76,6 +76,8 @@ font-size: 12px;
   border: none;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);  
   transition: opacity 0.1s;
+  width: 100px;
+  height: 50px;
 }
 .Home-page:hover,.About-us-page:hover,.Student-management:hover,.About-my-team:hover{
 opacity: 0.8;
